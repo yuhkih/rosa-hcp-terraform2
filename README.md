@@ -13,5 +13,5 @@ Terraform sample scripts for ROSA HCP based on official document
 ## Changes from the original: 
 
 - Default Machine CIDR is 10.1.0.0/16
-- In module "rosa-hcp", added machine_cidr parameter
+- In main.tf, added machine_cidr parameter in module "rosa-hcp"
 - In vpc.tf, added default subnet tags.  "kubernetes.io/role/internal-elb" and  "kubernetes.io/role/elb"
