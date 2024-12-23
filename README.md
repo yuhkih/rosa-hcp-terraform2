@@ -6,7 +6,6 @@ How to use:
  1. set RHCS_TOKEN variable after rosa login
  ```
  export RHCS_TOKEN="$(jq -r .refresh_token ~/.config/ocm/ocm.json)" 
-
  ```
 
  2. run terraform 
