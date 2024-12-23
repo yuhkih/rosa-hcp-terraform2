@@ -16,7 +16,7 @@
 variable "openshift_version" {
   type        = string
   # default     = "4.16.24"  # Success
-   default     = "4.17.8" 
+   default     = "4.17.8"   # Success 
   #  default     = "4.15.39"  # not sure but this also  failed??
   # default     = "4.14.41" # Ingress error
   # default     = "4.14.28" # ingress error
