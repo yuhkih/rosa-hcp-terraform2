@@ -1,4 +1,4 @@
-# rosa-hcp-terraform
+# rosa-hcp-terraform2
 
 Terraform sample scripts for ROSA HCP based on official document
 
